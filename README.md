@@ -40,7 +40,7 @@ for AI agents, the throughline is the same: verifiable over impressive.
 
 | Project | What it is |
 |---|---|
-| **[responsible-neobank-growth](https://github.com/rosscyking1115/responsible-neobank-growth)** | Synthetic fintech decision-support where customer-outcome guardrails dominate commercial uplift — release-gate verdicts, fairness gaps, experimentation (CUPED, DiD, synthetic control). dbt · DuckDB/BigQuery · Streamlit. → **[Live dashboard](https://neobank-product-analytics.streamlit.app/)** |
+| **[responsible-neobank-growth](https://github.com/rosscyking1115/responsible-neobank-growth)** | Synthetic fintech decision-support where customer-outcome guardrails dominate commercial uplift — release-gate verdicts, fairness gaps, experimentation (CUPED, DiD, synthetic control). dbt · DuckDB/BigQuery · Streamlit. → **[Live dashboard](https://neobank-appuct-analytics.streamlit.app/)** |
 | **[cashflow-risk](https://github.com/rosscyking1115/cashflow-risk)** | Which unpaid UK-SME invoices threaten cash runway, when, and the week's action — leakage-safe risk scoring behind a STRIDE threat model, DPIA, and tested multi-tenant RBAC. FastAPI · Postgres · Next.js. → **[Live demo](https://cashflow-web-sidu.onrender.com/)** |
 
 ---
