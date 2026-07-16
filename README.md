@@ -2,9 +2,11 @@
   DRAFT profile README — paste into the PUBLIC repo `rosscyking1115`
   (github.com/rosscyking1115/rosscyking1115) as README.md.
   Rewritten 2026-07-12 for the consolidated portfolio: new slugs
-  (uk-housing-decision-support, community-energy-flex), marketing-lab absorbed/archived
-  (dropped), aerospace strengthened, DE-primary ordering. All facts drawn from the public
-  repos. Supersedes ecosystem-map.md §1.
+  (england-wales-housing-decision-support, community-energy-flex), marketing-lab
+  absorbed/archived (dropped), aerospace strengthened, DE-primary ordering. All facts drawn
+  from the public repos. Supersedes ecosystem-map.md §1.
+  2026-07-16: retired the MoveIn and After Midnight product nicknames; housing row updated
+  for the correctness-closeout release (9 sources, 222 dbt tests, renamed repo slug).
 -->
 
 # Cheng-Yuan (Ross) King
@@ -24,8 +26,8 @@ for AI agents, the throughline is the same: verifiable over impressive.
 | Project | What it is |
 |---|---|
 | **[tfl-data-engineering](https://github.com/rosscyking1115/tfl-data-engineering)** | Living workflow quantifying how London transport disruption shifts cycle-hire demand — a **41.4M-journey** PySpark backfill → dbt → DuckDB/Parquet, a LightGBM forecast, and an MCP server, run daily on GitHub Actions with no warehouse to keep alive. → **[Live demo](https://tfl-data-engineering.streamlit.app/)** |
-| **[uk-housing-decision-support](https://github.com/rosscyking1115/uk-housing-decision-support)** | Explainable UK where-to-live decision-support — the **MoveIn** web app over 7 official open-data sources → 5 transparent indicators across **7,264** neighbourhoods. Tested dbt + DuckDB engine (197 dbt tests), Dagster orchestration, public API + site. → **[MoveIn live site](https://uk-housing-decision-support.vercel.app)** · [API docs](https://uk-housing-decision-support-api.fly.dev/docs) |
-| **[community-energy-flex](https://github.com/rosscyking1115/community-energy-flex)** | When to run flexible electricity loads to cut cost and carbon, from live UK grid data — the **After Midnight** web app, with an LP/MILP optimiser, a typed end-to-end contract, and a forecast-vs-actual retro that checks whether yesterday's plan actually saved. dbt/Snowflake + Power BI. → **[After Midnight app](https://after-midnight-beta.vercel.app/)** · [API docs](https://community-energy-flex-api.fly.dev/docs) |
+| **[england-wales-housing-decision-support](https://github.com/rosscyking1115/england-wales-housing-decision-support)** | Explainable where-to-live decision support for England & Wales — 9 official open-data sources → 5 transparent indicators across **7,264** neighbourhoods, every score shown beside the raw figure behind it. Tested dbt + DuckDB engine (222 dbt data tests + 2 unit tests, versioned cross-runtime scoring contract), Dagster orchestration, public API + site. → **[Live site](https://uk-housing-decision-support.vercel.app)** · [API docs](https://uk-housing-decision-support-api.fly.dev/docs) |
+| **[community-energy-flex](https://github.com/rosscyking1115/community-energy-flex)** | When to run flexible electricity loads to cut cost and carbon, from live UK grid data — the **Community Energy Flex** web app, with an LP/MILP optimiser, a typed end-to-end contract, and a forecast-vs-actual retro that checks whether yesterday's plan actually saved. dbt/Snowflake + Power BI. → **[Live app](https://after-midnight-beta.vercel.app/)** · [API docs](https://community-energy-flex-api.fly.dev/docs) |
 | **[aerospace-prognostics](https://github.com/rosscyking1115/aerospace-prognostics)** | Deployable, end-to-end PHM MLOps — NASA C-MAPSS RUL + spacecraft anomaly detection wrapped in a production-envelope serving API, signed release evidence (model card, SBOM, provenance), and **453 tests**. Evaluation layer extracted as the standalone **[telemeval](https://github.com/rosscyking1115/telemeval)** library (PyPI + Zenodo DOI). |
 
 ### 🛡️ AI Safety & Evaluation
