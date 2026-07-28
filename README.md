@@ -6,21 +6,20 @@
 </p>
 
 <p align="center">
-  <a href="https://rosscyking.com"><img src="https://img.shields.io/badge/Portfolio-rosscyking.com-111827?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
-  <a href="https://www.linkedin.com/in/rosscyking"><img src="https://img.shields.io/badge/LinkedIn-rosscyking-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:rosscyking@gmail.com"><img src="https://img.shields.io/badge/Email-rosscyking%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
-  <img src="https://img.shields.io/badge/PyPI_packages-3-3775A9?style=flat-square&logo=pypi&logoColor=white" alt="3 PyPI packages">
+  <a href="https://rosscyking.com"><img src="https://img.shields.io/badge/Portfolio-1f2937?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
+  <a href="https://www.linkedin.com/in/rosscyking"><img src="https://img.shields.io/badge/LinkedIn-1f2937?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:rosscyking@gmail.com"><img src="https://img.shields.io/badge/Email-1f2937?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://pypi.org/user/rosscyking/"><img src="https://img.shields.io/badge/PyPI-1f2937?style=flat-square&logo=pypi&logoColor=white" alt="PyPI"></a>
 </p>
 
 ---
 
-I build software that checks whether AI systems actually work: evaluation harnesses, release
-gates, and numbers you can trace back to the test that produced them. Three of these ship as
-installable packages on PyPI; most run as live services you can open right now.
+**Software engineer working on AI evaluation and reliability.** I build the harnesses and
+release gates that decide whether a change to an AI system is ready to ship — and I check
+that the evaluations themselves measure something.
 
-> **A test can pass because the system is right, or because the test cannot fail.**
-> I keep finding the second case in my own work, and I publish those rather than quietly
-> repairing them.
+Three of these ship as installable packages on PyPI. Most of the rest run as live services
+you can open below.
 
 ---
 
