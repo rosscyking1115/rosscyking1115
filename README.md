@@ -28,18 +28,18 @@ installable packages on PyPI; most run as live services you can open right now.
 
 ### [agent-release-gates](https://github.com/rosscyking1115/agent-release-gates)
 
-[![PyPI](https://img.shields.io/pypi/v/agent-release-gates?style=flat-square&logo=pypi&logoColor=white&label=PyPI)](https://pypi.org/project/agent-release-gates/)
-[![CI](https://img.shields.io/github/actions/workflow/status/rosscyking1115/agent-release-gates/ci.yml?style=flat-square&label=CI)](https://github.com/rosscyking1115/agent-release-gates/actions/workflows/ci.yml)
-[![Live dashboard](https://img.shields.io/badge/dashboard-live-2ea44f?style=flat-square)](https://agent-release-gates.streamlit.app/)
+[![PyPI](https://img.shields.io/pypi/v/agent-release-gates?style=flat-square&logo=pypi&logoColor=white&label=PyPI&color=3775A9)](https://pypi.org/project/agent-release-gates/)
 [![Inspect](https://img.shields.io/badge/runs_under-Inspect_(UK_AISI)-6f42c1?style=flat-square)](https://github.com/UKGovernmentBEIS/inspect_ai)
 
 Release-readiness gates for AI agents: replay incidents, apply policy-as-code, and produce
 `ship` / `warn` / `block` evidence before an agent, prompt, model or tool-policy change ships.
 Side-effecting tools require explicit approval, and every verdict leaves an audit trail.
 
+[![Live dashboard](https://img.shields.io/badge/Live_dashboard-2ea44f?style=for-the-badge&logo=streamlit&logoColor=white)](https://agent-release-gates.streamlit.app/)
+
 ### [redteam-foundry](https://github.com/rosscyking1115/redteam-foundry)
 
-[![PyPI](https://img.shields.io/pypi/v/redteam-foundry?style=flat-square&logo=pypi&logoColor=white&label=PyPI)](https://pypi.org/project/redteam-foundry/)
+[![PyPI](https://img.shields.io/pypi/v/redteam-foundry?style=flat-square&logo=pypi&logoColor=white&label=PyPI&color=3775A9)](https://pypi.org/project/redteam-foundry/)
 [![Upstream](https://img.shields.io/badge/feeds-agent--release--gates-6f42c1?style=flat-square)](https://github.com/rosscyking1115/agent-release-gates)
 
 LLM red-team evaluation harness: prompt-injection, refusal, leakage and staleness tests with
@@ -49,24 +49,32 @@ the previous one.** All documented rather than quietly repaired.
 
 ### [cited-market-brief-agent](https://github.com/rosscyking1115/cited-market-brief-agent)
 
-[![CI](https://img.shields.io/github/actions/workflow/status/rosscyking1115/cited-market-brief-agent/ci.yml?style=flat-square&label=CI)](https://github.com/rosscyking1115/cited-market-brief-agent/actions/workflows/ci.yml)
-[![Live demo](https://img.shields.io/badge/demo-live-2ea44f?style=flat-square)](https://cited-market-brief-agent.vercel.app)
-
 Audit-ready market-brief engine: every claim validated against a stored source span before it
 ships, enforced by a CI eval gate. Held-out **precision 0.400, recall 1.000, zero false
 negatives** — measured once on a corpus authored after the rules were frozen. Next.js ·
 FastAPI · pgvector.
 
+[![Live demo](https://img.shields.io/badge/Live_demo-2ea44f?style=for-the-badge&logo=vercel&logoColor=white)](https://cited-market-brief-agent.vercel.app)
+
 ---
 
 ## 🛠️ Data &amp; ML Engineering
 
-| Project | What it is | Live |
-|---|---|---|
-| **[tfl-data-engineering](https://github.com/rosscyking1115/tfl-data-engineering)** <br> [![CI](https://img.shields.io/github/actions/workflow/status/rosscyking1115/tfl-data-engineering/ci.yml?style=flat-square&label=CI)](https://github.com/rosscyking1115/tfl-data-engineering/actions/workflows/ci.yml) | Quantifies how London transport disruption shifts cycle-hire demand: a **41.4M-journey** PySpark backfill → dbt → DuckDB/Parquet, a LightGBM forecast, and an MCP server, run daily on GitHub Actions with no warehouse to keep alive. Strike days run **~1.4× median demand (95% CI 1.2–1.6), up to ~2.3×** on the worst full-network strike day, against a weather-adjusted baseline. | [![demo](https://img.shields.io/badge/demo-live-2ea44f?style=flat-square)](https://tfl-data-engineering.streamlit.app/) |
-| **[england-wales-housing-decision-support](https://github.com/rosscyking1115/england-wales-housing-decision-support)** <br> [![CI](https://img.shields.io/github/actions/workflow/status/rosscyking1115/england-wales-housing-decision-support/ci.yml?style=flat-square&label=CI)](https://github.com/rosscyking1115/england-wales-housing-decision-support/actions/workflows/ci.yml) | Explainable where-to-live decision support over nine official open-data sources → five 0–100 indicators across **7,264** neighbourhoods, each score shown beside the figure it came from. Tested dbt + DuckDB engine (**222 dbt tests**), Dagster orchestration, a public API and a Next.js site. | [![site](https://img.shields.io/badge/site-live-2ea44f?style=flat-square)](https://uk-housing-decision-support.vercel.app) [![API](https://img.shields.io/badge/API-docs-0b7285?style=flat-square)](https://uk-housing-decision-support-api.fly.dev/docs) |
-| **[community-energy-flex](https://github.com/rosscyking1115/community-energy-flex)** <br> [![CI](https://img.shields.io/github/actions/workflow/status/rosscyking1115/community-energy-flex/ci.yml?style=flat-square&label=CI)](https://github.com/rosscyking1115/community-energy-flex/actions/workflows/ci.yml) | Works out when to run flexible electricity loads to cut cost and carbon, from live UK grid data — the web app, with an LP/MILP optimiser, a typed end-to-end contract, and a forecast-vs-actual retro that checks whether yesterday's plan actually saved. dbt/Snowflake + Power BI. | [![app](https://img.shields.io/badge/app-live-2ea44f?style=flat-square)](https://after-midnight-beta.vercel.app/) [![API](https://img.shields.io/badge/API-docs-0b7285?style=flat-square)](https://community-energy-flex-api.fly.dev/docs) |
-| **[aerospace-prognostics](https://github.com/rosscyking1115/aerospace-prognostics)** <br> [![CI](https://img.shields.io/github/actions/workflow/status/rosscyking1115/aerospace-prognostics/ci.yml?style=flat-square&label=CI)](https://github.com/rosscyking1115/aerospace-prognostics/actions/workflows/ci.yml) | End-to-end PHM MLOps: NASA C-MAPSS RUL and ESA spacecraft anomaly detection carried through their real protocols, wrapped in a serving API, signed release evidence (model card, SBOM, provenance), and **461 tests**. The evaluation layer is extracted as **[telemeval](https://github.com/rosscyking1115/telemeval)**. | [![PyPI](https://img.shields.io/pypi/v/telemeval?style=flat-square&logo=pypi&logoColor=white&label=telemeval)](https://pypi.org/project/telemeval/) |
+| Project | What it is |
+|---|---|
+| **[tfl-data-engineering](https://github.com/rosscyking1115/tfl-data-engineering)** | Quantifies how London transport disruption shifts cycle-hire demand: a **41.4M-journey** PySpark backfill → dbt → DuckDB/Parquet, a LightGBM forecast, and an MCP server, run daily on GitHub Actions with no warehouse to keep alive. Strike days run **~1.4× median demand (95% CI 1.2–1.6), up to ~2.3×** on the worst full-network strike day, against a weather-adjusted baseline.<br><br>[![Live demo](https://img.shields.io/badge/Live_demo-2ea44f?style=for-the-badge&logo=streamlit&logoColor=white)](https://tfl-data-engineering.streamlit.app/) |
+| **[england-wales-housing-decision-support](https://github.com/rosscyking1115/england-wales-housing-decision-support)** | Explainable where-to-live decision support over nine official open-data sources → five 0–100 indicators across **7,264** neighbourhoods, each score shown beside the figure it came from. Tested dbt + DuckDB engine (**222 dbt tests**), Dagster orchestration, a public API and a Next.js site.<br><br>[![Live site](https://img.shields.io/badge/Live_site-2ea44f?style=for-the-badge&logo=vercel&logoColor=white)](https://uk-housing-decision-support.vercel.app) [![API docs](https://img.shields.io/badge/API_docs-0b7285?style=for-the-badge&logo=fastapi&logoColor=white)](https://uk-housing-decision-support-api.fly.dev/docs) |
+| **[community-energy-flex](https://github.com/rosscyking1115/community-energy-flex)** | Works out when to run flexible electricity loads to cut cost and carbon, from live UK grid data — the web app, with an LP/MILP optimiser, a typed end-to-end contract, and a forecast-vs-actual retro that checks whether yesterday's plan actually saved. dbt/Snowflake + Power BI.<br><br>[![Live app](https://img.shields.io/badge/Live_app-2ea44f?style=for-the-badge&logo=vercel&logoColor=white)](https://after-midnight-beta.vercel.app/) [![API docs](https://img.shields.io/badge/API_docs-0b7285?style=for-the-badge&logo=fastapi&logoColor=white)](https://community-energy-flex-api.fly.dev/docs) |
+| **[aerospace-prognostics](https://github.com/rosscyking1115/aerospace-prognostics)** | End-to-end PHM MLOps: NASA C-MAPSS RUL and ESA spacecraft anomaly detection carried through their real protocols, wrapped in a serving API, signed release evidence (model card, SBOM, provenance), and **461 tests**. The evaluation layer is extracted as **[telemeval](https://github.com/rosscyking1115/telemeval)**.<br><br>[![telemeval on PyPI](https://img.shields.io/pypi/v/telemeval?style=for-the-badge&logo=pypi&logoColor=white&label=telemeval&color=3775A9)](https://pypi.org/project/telemeval/) |
+
+---
+
+## 🏦 Applied Fintech &amp; Decision-Support
+
+| Project | What it is |
+|---|---|
+| **[responsible-neobank-growth](https://github.com/rosscyking1115/responsible-neobank-growth)** | Synthetic fintech decision-support where customer-outcome guardrails drive the commercial call: release-gate verdicts, fairness gaps, and experimentation (CUPED, DiD, synthetic control). Every governance rule is proved to fire by an invalid fixture that makes it fail. dbt · DuckDB/BigQuery · Streamlit.<br><br>[![Live dashboard](https://img.shields.io/badge/Live_dashboard-2ea44f?style=for-the-badge&logo=streamlit&logoColor=white)](https://responsible-neobank-growth.streamlit.app/) |
+| **[cashflow-risk](https://github.com/rosscyking1115/cashflow-risk)** | Which unpaid UK-SME invoices threaten cash runway, when, and the week's action — leakage-safe risk scoring behind a STRIDE threat model, a DPIA, and tested multi-tenant RBAC. FastAPI · Postgres · Next.js.<br><br>[![Live demo](https://img.shields.io/badge/Live_demo-2ea44f?style=for-the-badge&logo=render&logoColor=white)](https://cashflow-web-sidu.onrender.com/) |
 
 ---
 
