@@ -34,8 +34,5 @@ proves each governance rule fires by making it fail.
 
 ---
 
-Real open data where I have it, synthetic where I don't, and I say which. These are controlled
-evaluations, not claims about production behaviour.
-
 Available from October 2026 · [rosscyking.com](https://rosscyking.com) ·
 [LinkedIn](https://linkedin.com/in/rosscyking) · rosscyking@gmail.com
